@@ -1,26 +1,17 @@
 {
-  "name": "travel.demo",
-  "version": "1.0.0",
-  "description": "TT in node",
-  "main": "app.js",
+  "name": "tt-in-node",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/souravTT/tt_in_node.git"
-  },
-  "keywords": [
-    "Travel",
-    "Triangle",
-    "Node",
-    "Express",
-    "API"
-  ],
-  "author": "Sourav Kumar",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/souravTT/tt_in_node/issues"
-  },
-  "homepage": "https://github.com/souravTT/tt_in_node#readme"
+  "dependencies": {
+    "body-parser": "~1.16.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "express": "~4.14.1",
+    "hbs": "~4.0.1",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.2"
+  }
 }
